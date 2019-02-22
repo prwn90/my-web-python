@@ -1,0 +1,39 @@
+{% extends 'MySite/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container" style="margin-top: 100px">
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="{% static 'MySite/images/coding1.jpg' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">My projects</h5>
+                    <p class="card-text">This is my prjects websites... :)</p>
+                    <p class="card-text">
+                        <small class="text-muted">www.github.com/prwn90</small>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="{% static 'MySite/images/coding2.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Coding HTML/CSS/JS/Python</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                    <p class="card-text">
+                        <small class="text-muted">Code!</small>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="{% static 'MySite/images/coding3.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Python</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                    <p class="card-text">
+                        <small class="text-muted">Python Developer</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
